@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+/* main section  */
+main{
+    display: flex;
+}
+
+#btnNew{
+    width: 5vw;
+}
+
+.images{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#online{
+    color: green;
+}
+
+/* mission section  */
+.mission{
+    justify-content: center;
+    text-align: center;
+}
+.mission h1{
+    margin-top: 5vw;
+}
+
+.mission h2{
+    color: blue;
+    font-size: 40px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+#btn{
+    margin-top: 3vw;
+}
+.scam{
+    color: red;
+}
+.mission{
+    margin: 50px;
+}
+
+/* cards section  */
+.Cards{
+    display: flex;
+}
